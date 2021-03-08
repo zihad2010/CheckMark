@@ -30,11 +30,43 @@
                                     <action selector="checked:" destination="BYZ-38-t0r" eventType="valueChanged" id="Put-AX-2lh"/>
                                 </connections>
                             </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="VWW-GH-0lg" customClass="CustomCheckMark" customModule="CustomDropdown" customModuleProvider="target">
+                                <rect key="frame" x="177" y="326" width="60" height="60"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="60" id="L5r-JN-Sty"/>
+                                    <constraint firstAttribute="width" constant="60" id="fcu-tW-5lL"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="checked" value="NO"/>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="checked:" destination="BYZ-38-t0r" eventType="valueChanged" id="iuz-zh-mdW"/>
+                                </connections>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="l9A-aH-qqh" customClass="CustomCheckMark" customModule="CustomDropdown" customModuleProvider="target">
+                                <rect key="frame" x="177" y="502" width="60" height="60"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="60" id="C4z-IS-yXL"/>
+                                    <constraint firstAttribute="width" constant="60" id="v0S-uK-CSq"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="checked" value="NO"/>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="checked:" destination="BYZ-38-t0r" eventType="valueChanged" id="3jY-Eq-DHb"/>
+                                </connections>
+                            </view>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
+                            <constraint firstItem="18i-bw-OkN" firstAttribute="top" secondItem="VWW-GH-0lg" secondAttribute="bottom" constant="32" id="4wi-D5-nHm"/>
+                            <constraint firstItem="l9A-aH-qqh" firstAttribute="top" secondItem="18i-bw-OkN" secondAttribute="bottom" constant="24" id="5JN-Tq-ken"/>
+                            <constraint firstItem="VWW-GH-0lg" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="6Ie-Qg-r33"/>
                             <constraint firstItem="18i-bw-OkN" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="DMJ-iW-s8W"/>
+                            <constraint firstItem="l9A-aH-qqh" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="egU-MY-Gel"/>
                             <constraint firstItem="18i-bw-OkN" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="tnb-I4-Z7u"/>
                         </constraints>
                     </view>
