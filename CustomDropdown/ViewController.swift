@@ -14,6 +14,10 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
 
-
+    @IBAction func checked(_ sender: CustomCheckMark) {
+        print(sender.checked)
+    }
+    
+    
 }
 

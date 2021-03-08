@@ -15,6 +15,7 @@
 		87D3809F25F66A1D00C69EA7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 87D3809D25F66A1D00C69EA7 /* LaunchScreen.storyboard */; };
 		87D380AA25F66A1D00C69EA7 /* CustomDropdownTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87D380A925F66A1D00C69EA7 /* CustomDropdownTests.swift */; };
 		87D380B525F66A1D00C69EA7 /* CustomDropdownUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87D380B425F66A1D00C69EA7 /* CustomDropdownUITests.swift */; };
+		87D380C625F66A4600C69EA7 /* CustomCheckMark.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87D380C525F66A4600C69EA7 /* CustomCheckMark.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		87D380B025F66A1D00C69EA7 /* CustomDropdownUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CustomDropdownUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		87D380B425F66A1D00C69EA7 /* CustomDropdownUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomDropdownUITests.swift; sourceTree = "<group>"; };
 		87D380B625F66A1D00C69EA7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		87D380C525F66A4600C69EA7 /* CustomCheckMark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCheckMark.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				87D3809B25F66A1D00C69EA7 /* Assets.xcassets */,
 				87D3809D25F66A1D00C69EA7 /* LaunchScreen.storyboard */,
 				87D380A025F66A1D00C69EA7 /* Info.plist */,
+				87D380C525F66A4600C69EA7 /* CustomCheckMark.swift */,
 			);
 			path = CustomDropdown;
 			sourceTree = "<group>";
@@ -260,6 +263,7 @@
 			files = (
 				87D3809725F66A1B00C69EA7 /* ViewController.swift in Sources */,
 				87D3809325F66A1B00C69EA7 /* AppDelegate.swift in Sources */,
+				87D380C625F66A4600C69EA7 /* CustomCheckMark.swift in Sources */,
 				87D3809525F66A1B00C69EA7 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
